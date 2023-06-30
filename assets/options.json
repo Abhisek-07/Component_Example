@@ -1,0 +1,190 @@
+{
+    "data": [
+        {
+            "l2_categories_id": 9,
+            "l1_categories_id": 2,
+            "name": "Cost of goods sold",
+            "icon" :  "assets/icon/cost_of_goods_sold.svg"
+        },
+        {
+            "l2_categories_id": 10,
+            "l1_categories_id": 2,
+            "name": "Accounting fee",
+            "icon" :  "assets/icon/accounting_fee.svg"
+        },
+        {
+            "l2_categories_id": 11,
+            "l1_categories_id": 2,
+            "name": "Annual Maintance charges",
+            "icon" :  "assets/icon/anuual_maintanence_charges.svg"
+        },
+        {
+            "l2_categories_id": 12,
+            "l1_categories_id": 2,
+            "name": "Bank charges",
+            "icon" :  "assets/icon/bank_charges.svg"
+        },
+        {
+            "l2_categories_id": 13,
+            "l1_categories_id": 2,
+            "name": "Consulting charges",
+            "icon" :  "assets/icon/consulting_charges.svg"
+        },
+        {
+            "l2_categories_id": 14,
+            "l1_categories_id": 2,
+            "name": "Depreciation",
+            "icon" :  "assets/icon/depreciation.svg"
+        },
+        {
+            "l2_categories_id": 15,
+            "l1_categories_id": 2,
+            "name": "Refund from vendors",
+            "icon" :  "assets/icon/refund_from_vendors.svg"
+        },
+        {
+            "l2_categories_id": 16,
+            "l1_categories_id": 2,
+            "name": "Dues & Subcription",
+            "icon" :  "assets/icon/dues_and_subscription.svg"
+        },
+        {
+            "l2_categories_id": 17,
+            "l1_categories_id": 2,
+            "name": "Education & Training",
+            "icon" :  "assets/icon/training.svg"
+        },
+        {
+            "l2_categories_id": 18,
+            "l1_categories_id": 2,
+            "name": "Employee Reimbursements",
+            "icon" :  "assets/icon/employee_reimbursements.svg"
+        },
+        {
+            "l2_categories_id": 19,
+            "l1_categories_id": 2,
+            "name": "Fuel",
+            "icon" :  "assets/icon/fuel.svg"
+        },
+        {
+            "l2_categories_id": 20,
+            "l1_categories_id": 2,
+            "name": "Interest Expense",
+            "icon" :  "assets/icon/interest_expense.svg"
+        },
+        {
+            "l2_categories_id": 21,
+            "l1_categories_id": 2,
+            "name": "Insurance",
+            "icon" :  "assets/icon/insurance.svg"
+        },
+        {
+            "l2_categories_id": 22,
+            "l1_categories_id": 2,
+            "name": "Legal charges",
+            "icon" :  "assets/icon/legal.svg"
+        },
+        {
+            "l2_categories_id": 23,
+            "l1_categories_id": 2,
+            "name": "Marketing",
+            "icon" :  "assets/icon/marketing.svg"
+        },
+        {
+            "l2_categories_id": 24,
+            "l1_categories_id": 2,
+            "name": "Meals & Entertainment",
+            "icon" :  "assets/icon/meals_and_entertainment.svg"
+        },
+        {
+            "l2_categories_id": 25,
+            "l1_categories_id": 2,
+            "name": "Miscellaneous Expenses",
+            "icon" :  "assets/icon/miscellaneous_expenses.svg"
+        },
+        {
+            "l2_categories_id": 26,
+            "l1_categories_id": 2,
+            "name": "Office supplies",
+            "icon" :  "assets/icon/office_supplies.svg"
+        },
+        {
+            "l2_categories_id": 27,
+            "l1_categories_id": 2,
+            "name": "Payment processing fee",
+            "icon" :  "assets/icon/payment_processing_fee.svg"
+        },
+        {
+            "l2_categories_id": 28,
+            "l1_categories_id": 2,
+            "name": "Phone & Internet",
+            "icon" :  "assets/icon/phone_and_internet.svg"
+        },
+        {
+            "l2_categories_id": 29,
+            "l1_categories_id": 2,
+            "name": "Power & Utilities",
+            "icon" :  "assets/icon/power_and_utilities.svg"
+        },
+        {
+            "l2_categories_id": 30,
+            "l1_categories_id": 2,
+            "name": "Rent",
+            "icon" :  "assets/icon/rent.svg"
+        },
+        {
+            "l2_categories_id": 31,
+            "l1_categories_id": 2,
+            "name": "Repair & Maintenance",
+            "icon" :  "assets/icon/repair_and_maintanence.svg"
+        },
+        {
+            "l2_categories_id": 32,
+            "l1_categories_id": 2,
+            "name": "Salary & Wages",
+            "icon" :  "assets/icon/salary_and_wages.svg"
+        },
+        {
+            "l2_categories_id": 33,
+            "l1_categories_id": 2,
+            "name": "Sales Commisions",
+            "icon" :  "assets/icon/sales_commisions.svg"
+        },
+        {
+            "l2_categories_id": 34,
+            "l1_categories_id": 2,
+            "name": "Software",
+            "icon" :  "assets/icon/software.svg"
+        },
+        {
+            "l2_categories_id": 35,
+            "l1_categories_id": 2,
+            "name": "Taxes",
+            "icon" :  "assets/icon/taxes.svg"
+        },
+        {
+            "l2_categories_id": 36,
+            "l1_categories_id": 2,
+            "name": "Travel & lodging",
+            "icon" :  "assets/icon/travel.svg"
+        },
+        {
+            "l2_categories_id": 37,
+            "l1_categories_id": 2,
+            "name": "Write offs",
+            "icon" :  "assets/icon/write_offs.svg"
+        },
+        {
+            "l2_categories_id": 38,
+            "l1_categories_id": 2,
+            "name": "Other expense",
+            "icon" :  "assets/icon/other_expense.svg"
+        },
+        {
+            "l2_categories_id": 39,
+            "l1_categories_id": 2,
+            "name": "Uncategorized Expense",
+            "icon" :  "assets/icon/uncategorized_expense.svg"
+        }
+    ]
+}
