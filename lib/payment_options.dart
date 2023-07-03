@@ -39,12 +39,16 @@ class _PaymentOptionsState extends State<PaymentOptions> {
         widget.selectOption(optionIndex);
       },
       child: Card(
-        // shape: ,
-        margin: const EdgeInsets.all(8),
-        color: isSelected
-            ? Theme.of(context).colorScheme.inversePrimary
-            : Theme.of(context).colorScheme.background,
-
+        shape: isSelected
+            ? RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(8),
+                side: BorderSide(
+                    width: 2,
+                    color: Theme.of(context).colorScheme.inversePrimary))
+            : null,
+        margin: const EdgeInsets.symmetric(horizontal: 6, vertical: 8),
+        surfaceTintColor: Colors.transparent,
+        color: Colors.white,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
@@ -87,9 +91,11 @@ class _PaymentOptionsState extends State<PaymentOptions> {
             widget.title,
             style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
           ),
-          const SizedBox(height: 16),
+          const SizedBox(height: 8),
           Expanded(
             child: GridView.builder(
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                 shrinkWrap: true,
                 gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount: 3, childAspectRatio: 1),
@@ -102,9 +108,13 @@ class _PaymentOptionsState extends State<PaymentOptions> {
                     return GestureDetector(
                       onTap: widget.selectMore,
                       child: Card(
-                        // shape: ,
-                        margin: const EdgeInsets.all(8),
-
+                        surfaceTintColor: Colors.transparent,
+                        color: Colors.white,
+                        // shape: RoundedRectangleBorder(
+                        //     borderRadius: BorderRadius.circular(8),
+                        //     side: const BorderSide()),
+                        margin: const EdgeInsets.symmetric(
+                            horizontal: 4, vertical: 8),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.center,

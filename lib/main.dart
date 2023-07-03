@@ -8,9 +8,11 @@ import 'all_options.dart';
 void main() {
   runApp(MaterialApp(
     theme: ThemeData(
-        useMaterial3: true,
-        colorScheme: ColorScheme.fromSeed(
-            seedColor: const Color.fromARGB(255, 148, 23, 123))),
+      useMaterial3: true,
+      colorScheme: ColorScheme.fromSeed(
+        seedColor: const Color.fromARGB(255, 111, 26, 176),
+      ),
+    ),
     home: const MyApp(),
   ));
 }
@@ -23,6 +25,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+  int selectedIndexInListView = -1;
   List<Option> options = [];
   int selectedIndex = -1;
   int totalVisibleOptions = 5;
@@ -53,6 +56,7 @@ class _MyAppState extends State<MyApp> {
   void selectListOption(int? index) {
     if (index != null) {
       setState(() {
+        selectedIndexInListView = index;
         selectedIndex = index;
         if (index < totalVisibleOptions) {
           visibleOptions[0] = options[0];
@@ -79,8 +83,10 @@ class _MyAppState extends State<MyApp> {
       }
       if (selectedIndex == index) {
         selectedIndex = -1;
+        selectedIndexInListView = -1;
       } else {
         selectedIndex = index;
+        selectedIndexInListView = index;
       }
     });
   }
@@ -93,6 +99,7 @@ class _MyAppState extends State<MyApp> {
         options: options,
         selectedIndex: selectedIndex,
         onSelectListOption: selectListOption,
+        selectedIndexInListView: selectedIndexInListView,
       );
     }));
   }
